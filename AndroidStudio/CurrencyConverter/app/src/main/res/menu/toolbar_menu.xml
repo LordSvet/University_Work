@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bwq="http://schemas.android.com/tools">
+
+    <item
+        android:title="Currency List"
+        android:id="@+id/item"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/refresh_item"
+        android:title="Refresh Rates!"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="Share"
+        android:id="@+id/share_button"
+        android:icon="@drawable/ic_baseline_share_24"
+        app:showAsAction="ifRoom"
+/>
+</menu>
